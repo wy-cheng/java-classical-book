@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/effective-java/effective-java.iml" filepath="$PROJECT_DIR$/effective-java/effective-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-classical-book.iml" filepath="$PROJECT_DIR$/java-classical-book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8-in-action/java8-in-action.iml" filepath="$PROJECT_DIR$/java8-in-action/java8-in-action.iml" />
     </modules>
   </component>
 </project>

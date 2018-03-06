@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="effective-java" />
+        <module name="java8-in-action" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="effective-java" target="1.5" />
-      <module name="java-classical-book" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="effective-java" target="1.7" />
+      <module name="java-classical-book" target="1.7" />
+      <module name="java8-in-action" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

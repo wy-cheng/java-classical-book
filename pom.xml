@@ -9,8 +9,22 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>effective-java</module>
+        <module>java8-in-action</module>
     </modules>
     <packaging>pom</packaging>
     <name>Java经典书籍部分代码</name>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
